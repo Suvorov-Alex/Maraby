@@ -10,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import kotlin.random.Random
 
+// Box that change color by click
 @Composable
 fun ColorBox(
     modifier: Modifier = Modifier
