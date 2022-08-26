@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Maraby</string>
+    <string name="mountain_text">For aligning individual items in a Box, you dont need to create another Box and align the item in that box with contentAlignment.</string>
 </resources>
