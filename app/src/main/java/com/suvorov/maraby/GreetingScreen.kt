@@ -19,8 +19,7 @@ fun GreetingScreen() {
         modifier = Modifier
             .fillMaxSize(),
         scaffoldState = scaffoldState
-    ) {
-
+    ) { padding ->
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,

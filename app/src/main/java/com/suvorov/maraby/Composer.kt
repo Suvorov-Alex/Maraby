@@ -1,6 +1,5 @@
 package com.suvorov.maraby
 
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,6 +25,8 @@ fun ComposeSimpleList() = SimpleList()
 @Composable
 fun ComposeCardList() = CardList()
 
-@ExperimentalFoundationApi
 @Composable
 fun ComposeCardGrid() = CardGrid()
+
+@Composable
+fun ComposeConstraintView() = ConstraintView()
