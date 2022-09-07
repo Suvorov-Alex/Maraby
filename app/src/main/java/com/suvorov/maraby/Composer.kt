@@ -30,3 +30,6 @@ fun ComposeCardGrid() = CardGrid()
 
 @Composable
 fun ComposeConstraintView() = ConstraintView()
+
+@Composable
+fun ComposeAnimatedBox() = AnimatedBox()
