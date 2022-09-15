@@ -3,6 +3,8 @@ package com.suvorov.maraby
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.google.accompanist.pager.ExperimentalPagerApi
+import com.suvorov.maraby.slider.ViewPagerSlider
 
 @Composable
 fun ComposeCardView() = CardView(
@@ -30,3 +32,10 @@ fun ComposeCardGrid() = CardGrid()
 
 @Composable
 fun ComposeConstraintView() = ConstraintView()
+
+@Composable
+fun ComposeAnimatedBox() = AnimatedBox()
+
+@ExperimentalPagerApi
+@Composable
+fun ComposeViewPagerSlider() = ViewPagerSlider()
